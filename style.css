@@ -12,13 +12,21 @@ body{
     background-color: black;
 }
 
+h1{
+    font-family:'Tomorrow', 'Lucida Sans Unicode', sans-serif;  
+    color: rgb(29, 219, 102);
+    font-size: 2.5em;      
+}
+
 .main{
     display: flex;
     flex-direction: column;
     background-color: black;
-    max-width: 50vw;
-    min-height: 40vh;
+    max-width: 40vw;
+    min-width: fit-content;
+    min-height: 35vh;
     margin: auto;
+    padding: 5px;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -26,11 +34,12 @@ body{
     box-shadow: 0px 0px 20px 10px rgba(18, 250, 115, 0.158);
 }
 
-h1{
-    font-family:'Tomorrow', 'Lucida Sans Unicode', sans-serif;  
-    color: rgb(29, 219, 102);
-    font-size: 2.5em;   
-     
+.flex-button{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: black;
+    align-items: stretch;
+    justify-content: center;  
 }
 
 .botao{
@@ -38,7 +47,7 @@ h1{
     border-radius: 5px; 
     font-family: 'Orbitron', 'Lucida Sans Unicode', sans-serif;
     color: rgb(29, 219, 102);
-    margin: 4px;
+    margin: 5px;
     padding: 8px;
     line-height: 1.4em;
     border: 2px solid #017744;
@@ -63,7 +72,7 @@ h1{
     font-size: 0.8em;
     color: rgb(18, 155, 70); 
     text-align: center;
-    margin-top: 35px;
+    padding-top: 30px;
     min-height: 5vh;   
 }
 
