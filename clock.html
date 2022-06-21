@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Clock</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header></header>
+
+    <div class="main">
+        
+        <h1 class="clock"></h1>
+        <div>
+            <button class="botao" onclick="Local()">Local</button>
+            <button class="botao" onclick="UTC()">UTC</button>  
+        </div>         
+    </div>
+
+    <br>
+
+    <div class="main">
+        <h1><span id="min">00</span>:<span id="sec">00</span>:<span id="ms">00</span></h1>
+        <div>
+            <button class="botao" onclick="Start()">Start</button>
+            <button class="botao" onclick="Stop()">Stop</button>
+            <button class="botao" onclick="Reset()">Reset</button>   
+        </div>     
+    </div>   
+ 
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <div class="copy"><a href= "https://github.com/Mari-Nakazima" target="_blank">@Mari Nakazima</a></div>
+</footer>
+
+</html>
