@@ -23,7 +23,7 @@ h1{
     flex-direction: column;
     background-color: black;
     max-width: 40vw;
-    min-width: fit-content;
+    min-width: 200px;
     min-height: 35vh;
     margin: auto;
     padding: 5px;
@@ -38,7 +38,7 @@ h1{
     display: flex;
     flex-flow: row nowrap;
     background-color: black;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;  
 }
 
